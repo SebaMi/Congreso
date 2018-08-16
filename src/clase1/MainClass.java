@@ -13,13 +13,33 @@ public class MainClass {
 		GestorEmpleados.establecerJerarquia(jefeSenado, presidente);
 		GestorEmpleados.generarEmpleados(jefeSenado);
 		
-		Employee jefeDiputado = GestorEmpleados.createEmployee(400,"Jefe Diputado", Employee.DIPUTADO);
+		Employee jefeDiputado = GestorEmpleados.createEmployee(300,"Jefe Diputado", Employee.DIPUTADO);
 		GestorEmpleados.establecerJerarquia(jefeDiputado, presidente);
 		GestorEmpleados.generarEmpleados(jefeDiputado);
+		
+		for (Employee empleado : jefeSenado.getReportees()) {
+			
+			GestorEmpleados.generarAsesores(empleado);
+		}
+		
+		for (Employee empleado : jefeDiputado.getReportees()) { 
+			
+			 GestorEmpleados.generarAsesores(empleado);
+		}
 	
 		for (Votador empleado : presidente.getReportees()) {
 			empleado.elegirVoto();
-			System.out.println(empleado.getDecisionVoto());
+			System.out.println(empleado.getVotacion());
+		}
+		
+		for(Votador empleado : jefeSenado.getReportees()) {
+			empleado.elegirVoto();
+			System.out.println(empleado.getVotacion());
+		}
+		
+		for(Votador diputado : jefeDiputado.getReportees() ) {
+			diputado.elegirVoto();
+			System.out.println(diputado.getVotacion());
 		}
 	}
 	

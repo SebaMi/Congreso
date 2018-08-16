@@ -10,7 +10,7 @@ public class Employee implements Votador{
 	private String ubicacion;
 	private String name;
 	private List<Employee> reportees = null;
-	private boolean voto;
+	private Boolean voto;
 	
 	public Employee() {
 		reportees = new ArrayList<Employee>();
@@ -60,8 +60,7 @@ public class Employee implements Votador{
 	}
 
 	@Override
-	public boolean getDecisionVoto() {
-		// TODO Auto-generated method stub
+	public Boolean getDecisionVoto() {
 		return voto;
 	}
 
@@ -76,6 +75,12 @@ public class Employee implements Votador{
 				valorRetorno = Boolean.TRUE;
 		}
 		voto = valorRetorno;
+	}
+
+	@Override
+	public String getVotacion() {
+		String votacion = this.getUbicacion()+" "+ this.getLegajo() +" voto: "+ this.getDecisionVoto(); 
+		return votacion;
 	}
 
 //	@Override

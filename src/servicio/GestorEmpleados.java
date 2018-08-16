@@ -39,5 +39,9 @@ public class GestorEmpleados {
 	public static void generarEmpleados(Employee empleado) {
 		empleado.setReportees(generateRandomEmployees(Utilidades.generarRandomInt(10,100), empleado.getUbicacion(), empleado.getLegajo(), empleado));
 	}
+	
+	public static void generarAsesores(Employee empleado) {
+		empleado.setReportees(generateRandomEmployees(Utilidades.generarRandomInt(0,10), empleado.getUbicacion(), empleado.getLegajo(), empleado));
+	}
 
 }
