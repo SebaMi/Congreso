@@ -1,4 +1,4 @@
-package modelo;
+package clase1.modelo;
 
 public interface Votador {
 	

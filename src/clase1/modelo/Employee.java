@@ -1,4 +1,4 @@
-package modelo;
+package clase1.modelo;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -82,6 +82,16 @@ public class Employee implements Votador{
 		String votacion = this.getUbicacion()+" "+ this.getLegajo() +" voto: "+ this.getDecisionVoto(); 
 		return votacion;
 	}
+
+	@Override
+	public String toString() {
+		return String.format("Employee [reportTo=%s, legajo=%s, ubicacion=%s, name=%s, reportees=%s]", reportTo!=null?reportTo.getName():"", legajo,
+				ubicacion, name, reportees.size());
+	}
+
+	
+	
+	
 
 //	@Override
 //	public boolean puedeVotar() {

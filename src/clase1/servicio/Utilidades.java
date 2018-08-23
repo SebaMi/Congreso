@@ -1,4 +1,4 @@
-package servicio;
+package clase1.servicio;
 
 import java.util.Random;
 

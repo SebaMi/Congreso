@@ -1,11 +1,15 @@
-package servicio;
+package clase1.servicio;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import modelo.Employee;
+import clase1.modelo.Employee;
+import clase1.persistencia.EmployeeDAO;
+import clase1.persistencia.InMemoryDAOImpl;
 
 public class GestorEmpleados {
+	
+	private static EmployeeDAO dao = new InMemoryDAOImpl();
 	
 	public static List<Employee> generateRandomEmployees(int cantidad, String nombreBase, int legajoBase, Employee report){
 		List<Employee> employees = new ArrayList<Employee>();
@@ -16,6 +20,9 @@ public class GestorEmpleados {
 			emp.setName(nombreBase+emp.getLegajo());
 			emp.setUbicacion(report.getUbicacion());
 			emp.setReportTo(report);
+			
+			dao.guardar(emp);
+			
 			employees.add(emp);
 		}
 		
@@ -33,6 +40,8 @@ public class GestorEmpleados {
 		empl.setName(nombre);
 		empl.setUbicacion(ubicacion);
 		
+		dao.guardar(empl);
+		
 		return empl;
 	}
 	
@@ -42,6 +51,12 @@ public class GestorEmpleados {
 	
 	public static void generarAsesores(Employee empleado) {
 		empleado.setReportees(generateRandomEmployees(Utilidades.generarRandomInt(0,10), empleado.getUbicacion(), empleado.getLegajo(), empleado));
+	}
+	
+	public static  List<Employee> obtenerEmpleados(){
+		
+		return dao.recuperar();
+		
 	}
 
 }

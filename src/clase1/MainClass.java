@@ -1,8 +1,8 @@
 package clase1;
 
-import modelo.Employee;
-import modelo.Votador;
-import servicio.GestorEmpleados;
+import clase1.modelo.Employee;
+import clase1.modelo.Votador;
+import clase1.servicio.GestorEmpleados;
 
 public class MainClass {
 
