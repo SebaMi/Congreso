@@ -3,6 +3,7 @@
 	<name>avanzado</name>
 	<comment></comment>
 	<projects>
+		<project>avanzando</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

@@ -22,9 +22,11 @@ public class InMemoryDAOImpl implements EmployeeDAO {
 
 	@Override
 	public List<String> recuperarEmpleados() {
-		List<String> empl = new ArrayList<String>();
-		
-		return null;
+		List<String> empleadosString = new ArrayList<String>();
+		for (Employee employee : empleados) {
+			empleadosString.add(employee.toString());
+		}
+		return empleadosString;
 	}
 
 }
