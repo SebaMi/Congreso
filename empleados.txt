@@ -1,0 +1,732 @@
+{
+  "reportTo" : null,
+  "legajo" : 100,
+  "ubicacion" : "presidencia",
+  "name" : "Presidente",
+  "reportees" : [ ],
+  "votacion" : "presidencia 100 voto: null",
+  "decisionVoto" : null
+}{
+  "reportTo" : null,
+  "legajo" : 200,
+  "ubicacion" : "senado",
+  "name" : "Jefe Senado",
+  "reportees" : [ ],
+  "votacion" : "senado 200 voto: null",
+  "decisionVoto" : null
+}{
+  "reportTo" : null,
+  "legajo" : 400,
+  "ubicacion" : "congreso",
+  "name" : "Jefe Diputado",
+  "reportees" : [ ],
+  "votacion" : "congreso 400 voto: null",
+  "decisionVoto" : null
+}{
+  "legajo" : 100,
+  "ubicacion" : "presidencia",
+  "reportTo" : null,
+  "name" : "Presidente",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 200,
+  "ubicacion" : "senado",
+  "reportTo" : null,
+  "name" : "Jefe Senado",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 201,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado201",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 202,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado202",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 203,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado203",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 204,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado204",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 205,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado205",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 206,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado206",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 207,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado207",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 208,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado208",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 209,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado209",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 210,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado210",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 211,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado211",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 212,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado212",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 213,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado213",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 214,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado214",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 215,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado215",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 216,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado216",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 217,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado217",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 218,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado218",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 219,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado219",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 220,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado220",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 221,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado221",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 222,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado222",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 223,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado223",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 224,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado224",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 225,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado225",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 226,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado226",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 227,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado227",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 228,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado228",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 229,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado229",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 230,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado230",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 231,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado231",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 232,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado232",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 233,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado233",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 234,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado234",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 235,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado235",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 236,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado236",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 237,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado237",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 238,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado238",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 239,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado239",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 240,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado240",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 241,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado241",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 242,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado242",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 243,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado243",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 244,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado244",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 245,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado245",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 246,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado246",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 247,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado247",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 248,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado248",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 249,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado249",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 250,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado250",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 251,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado251",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 252,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado252",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 253,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado253",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 254,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado254",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 255,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado255",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 256,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado256",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 257,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado257",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 258,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado258",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 259,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado259",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 260,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado260",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 261,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado261",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 262,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado262",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 263,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado263",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 264,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado264",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 265,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado265",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 266,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado266",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 267,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado267",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 268,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado268",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 269,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado269",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 270,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado270",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 271,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado271",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 272,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado272",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 273,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado273",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 274,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado274",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 275,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado275",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 276,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado276",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 277,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado277",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 278,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado278",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 279,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado279",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 280,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado280",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 281,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado281",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 282,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado282",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 283,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado283",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 284,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado284",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 285,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado285",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 286,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado286",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 287,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado287",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 288,
+  "ubicacion" : "senado",
+  "reportTo" : 200,
+  "name" : "senado288",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 400,
+  "ubicacion" : "congreso",
+  "reportTo" : null,
+  "name" : "Jefe Diputado",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 401,
+  "ubicacion" : "congreso",
+  "reportTo" : 400,
+  "name" : "congreso401",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 402,
+  "ubicacion" : "congreso",
+  "reportTo" : 400,
+  "name" : "congreso402",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 403,
+  "ubicacion" : "congreso",
+  "reportTo" : 400,
+  "name" : "congreso403",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 404,
+  "ubicacion" : "congreso",
+  "reportTo" : 400,
+  "name" : "congreso404",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 405,
+  "ubicacion" : "congreso",
+  "reportTo" : 400,
+  "name" : "congreso405",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 406,
+  "ubicacion" : "congreso",
+  "reportTo" : 400,
+  "name" : "congreso406",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 407,
+  "ubicacion" : "congreso",
+  "reportTo" : 400,
+  "name" : "congreso407",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 408,
+  "ubicacion" : "congreso",
+  "reportTo" : 400,
+  "name" : "congreso408",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 409,
+  "ubicacion" : "congreso",
+  "reportTo" : 400,
+  "name" : "congreso409",
+  "reportees" : [ ],
+  "voto" : null
+}{
+  "legajo" : 410,
+  "ubicacion" : "congreso",
+  "reportTo" : 400,
+  "name" : "congreso410",
+  "reportees" : [ ],
+  "voto" : null
+}
