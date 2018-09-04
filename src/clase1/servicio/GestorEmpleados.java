@@ -5,12 +5,18 @@ import java.util.List;
 
 import clase1.modelo.Employee;
 import clase1.persistencia.EmployeeDAO;
+import clase1.persistencia.EmployeeDAOFactory;
 import clase1.persistencia.FileDAOImpl;
 import clase1.persistencia.InMemoryDAOImpl;
 
 public class GestorEmpleados {
 	
-	private static EmployeeDAO dao = new FileDAOImpl();//InMemoryDAOImpl();
+	//private static EmployeeDAO dao = new FileDAOImpl();//InMemoryDAOImpl();
+	
+	//private static EmployeeDAOFactory emp = new EmployeeDAOFactory();
+	
+	private static EmployeeDAO dao = new EmployeeDAOFactory().createEmployeeDAO();
+	
 	
 	public static List<Employee> generateRandomEmployees(int cantidad, String nombreBase, int legajoBase, Employee report){
 		List<Employee> employees = new ArrayList<Employee>();
@@ -54,9 +60,9 @@ public class GestorEmpleados {
 		empleado.setReportees(generateRandomEmployees(Utilidades.generarRandomInt(0,10), empleado.getUbicacion(), empleado.getLegajo(), empleado));
 	}
 	
-	public static  List<Employee> obtenerEmpleados(){
+	public static  List<String> obtenerEmpleados(){
 		
-		return dao.recuperar();
+		return dao.recuperarEmpleados();
 		
 	}
 

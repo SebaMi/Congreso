@@ -2,6 +2,7 @@ package clase1.vista;
 
 import clase1.modelo.Employee;
 import clase1.modelo.Votador;
+import clase1.persistencia.EmployeeDAOFactory;
 import clase1.servicio.GestorEmpleados;
 
 public class CreadorEstructura {
@@ -16,10 +17,13 @@ public class CreadorEstructura {
 		Employee jefeDiputado = GestorEmpleados.createEmployee(400,"Jefe Diputado", Votador.DIPUTADO);
 		GestorEmpleados.establecerJerarquia(jefeDiputado, presidente);
 		GestorEmpleados.generarEmpleados(jefeDiputado);
-				
-		for (Employee empl : GestorEmpleados.obtenerEmpleados()) {
+		
+		
+		for (String empl : GestorEmpleados.obtenerEmpleados()) {
 			System.out.println(empl);
 		}
+		
+		
 		
 //		for (Votador empleado: presidente.getReportees()) {
 //			empleado.elegirVoto();
